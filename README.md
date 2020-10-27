@@ -22,8 +22,9 @@ Please note the final area should be `return`ed in decimal format. (`float`)
 
 
 ## Requirements
-*   A main function - `room_area()`
-    *   Asks for the user inputs
+*   On script run, ask user for inputs
+*   A main function - `room_area(a,b,c,d,e)`
+    *   Accepts parameters accepted from user
     *   Calculates the area using the helper functions
     *   Returns the final area to be printed out as a float.
 *   Helper functions for each shape you’re calculating the area of.
