@@ -39,7 +39,7 @@ def right_triangle_area(base, height):
 
 def rectangle_area(length, width):
   """
-  Given the length and width of a recetangle, returns the area.
+  Given the length and width of a rectangle, returns the area.
 
   Parameters:
 
@@ -57,7 +57,7 @@ def room_area(a, b, c, d, e):
   Parameters:
 
   Returns:
-  
+
   """
 
   return 0
