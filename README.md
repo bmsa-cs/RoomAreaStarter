@@ -31,6 +31,7 @@ Please note the final area should be `return`ed in decimal format. (i.e. `float`
     *   Each helper function should:
         *   Have parameters for the necessary values.
         *   Have a properly formatted [docstrings](https://www.python.org/dev/peps/pep-0257/).
+            *   Your docstring for `room_area()` should explain how you chose to calculate the area of the room (how many squares/triangles and what their dimensions were.)
         *   Return the area as a `float`.
     *   Example functions:
         *   `rectangle_area(length, width)` -  returns the area of the rectangle as a `float`.

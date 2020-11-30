@@ -50,6 +50,8 @@ def room_area(a, b, c, d, e):
 
 
 if __name__ == "__main__":
+  os.system("clear") # clears the console each time you run
+  
   a = input("A: ")
   b = input("B: ")
   c = input("C: ")
