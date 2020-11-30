@@ -20,12 +20,17 @@ def run_tests():
   if importlib.util.find_spec('pytest') is None: # Check if pytest is installed
     os.system('python3 -m pip install -q pytest')
 
-  command = "python3 -m pytest --tb=line tests.py"
+  command = "python3 -m pytest --tb=line -v tests.py"
   print(command)
   os.system(command)
 
 def right_triangle_area(base, height):
   """
+  Given the base and height of a right triangle, returns the area.
+
+  Parameters:
+
+  Returns:
 
   """
 
@@ -34,6 +39,11 @@ def right_triangle_area(base, height):
 
 def rectangle_area(length, width):
   """
+  Given the length and width of a recetangle, returns the area.
+
+  Parameters:
+
+  Returns:
 
   """
 
@@ -44,6 +54,10 @@ def room_area(a, b, c, d, e):
   """
   Given five measurements, this function calculates and returns the area of the room.
 
+  Parameters:
+
+  Returns:
+  
   """
 
   return 0
